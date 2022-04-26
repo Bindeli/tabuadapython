@@ -1,0 +1,14 @@
+"""
+Tabuada
+"""
+
+while True:
+  op = input('Digite S para sair ou um número para calcular:').lower()
+  if op == 's':
+    break
+  else:
+    op = int(op)
+    cont = 1
+    while cont <= 10:
+      print(f'{cont} = {cont * op}')
+      cont += 1
